@@ -56,3 +56,19 @@ main {
     padding: 10px;
     
 }
+
+#forml h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#forml p {
+    text-align: justify;
+    font-size: .8em;
+}
+
+form {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
