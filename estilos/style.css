@@ -35,7 +35,7 @@ main {
 
     background-color: white;
     width: 300px;
-    height: 600px;
+    height: 490px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
 
@@ -71,4 +71,54 @@ form {
     display: block;
     margin: auto;
     padding-top: 20px;
+}
+
+.campo {
+    display: block;
+    background-color: #C8ACD6;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.campo label {
+    display: none;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: #306086;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    padding: 20px;
+    line-height: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #a3d2dd;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: #8bc0ec;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #192229;
+    color: white;
+    cursor: pointer;
 }
