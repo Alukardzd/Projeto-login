@@ -30,17 +30,18 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
 
     background-color: white;
-    width: 300px;
-    height: 490px;
+    width: 230px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
 
     transition: width 0.4s, height 0.4s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 #image {
@@ -76,14 +77,31 @@ form {
 .campo {
     display: block;
     background-color: #C8ACD6;
+    border: 1px solid #322a36;
     width: 100%;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
 }
 
+.campo input {
+    border-radius: 5px;
+    border: 0px;
+    font-size: 1em;
+    width: calc(100% - 35.9px);
+    height: 97%;
+    padding: 5px;
+    transform: translateY(-3px);
+}
+
 .campo label {
     display: none;
+}
+
+.campo span {
+    width: 31px;
+    font-size: 1.6;
+    padding: 5px;
 }
 
 input[type=submit] {
